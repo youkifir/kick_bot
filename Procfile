@@ -1,1 +1,1 @@
-worker: python bot_kick/script.py
+worker: python script.py
