@@ -9,7 +9,7 @@ intents.guilds = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-USER_1_ID = 937095627312070657  # ч1
+USER_1_ID = "USER_ID"  # ч1
 
 @bot.event
 async def on_ready():
@@ -55,4 +55,4 @@ async def on_voice_state_update(member, before, after):
     except Exception as e:
         print(f"Ошибка: {e}")
 
-bot.run("MTM3NDg0ODI0NTIyMTY4NzQwOA.GUunhK.AJ0L2-k16hbAW72gvUB31Ilj_w1bPJIU8l7erg")
+bot.run("YOUR_DISCORD_BOT_TOKEN")
