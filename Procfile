@@ -1,0 +1,1 @@
+worker: python bot_kick/script.py
